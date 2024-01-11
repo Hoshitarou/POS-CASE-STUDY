@@ -1,0 +1,37 @@
+﻿Imports System.Data.OleDb
+Public Class frmLogin
+    Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call connection()
+
+    End Sub
+
+    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        sql = "Select * from tblUsers where Username='" & txtUsername.Text & "' and Password= '" & txtPassword.Text & "'"
+        cmd = New OleDbCommand(sql, cn)
+        dr = cmd.ExecuteReader
+        If dr.Read Then
+            MsgBox("Log in Success", MsgBoxStyle.Information)
+            frmDashboard.lblnemu.Text = txtUsername.Text
+            frmDashboard.tssusername.Text = txtUsername.Text
+            frmDashboard.tssRole.Text = lblRole.Text
+            frmDashboard.ShowDialog()
+
+        Else
+            MsgBox("Wrong Password", MsgBoxStyle.Exclamation)
+
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Close()
+    End Sub
+
+    Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
+        sql = "Select [Role] from tblUsers where Username='" & txtUsername.Text & "'"
+        cmd = New OleDbCommand(sql, cn)
+        dr = cmd.ExecuteReader
+        If dr.Read Then
+            lblRole.Text = dr(0).ToString
+        End If
+    End Sub
+End Class

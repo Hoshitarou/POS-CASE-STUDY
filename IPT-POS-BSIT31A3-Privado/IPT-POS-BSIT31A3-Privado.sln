@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IPT-POS-BSIT31A3-Privado", "IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado.vbproj", "{D94D7D79-8C20-445C-85FD-A583C87BD38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94D7D79-8C20-445C-85FD-A583C87BD38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94D7D79-8C20-445C-85FD-A583C87BD38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94D7D79-8C20-445C-85FD-A583C87BD38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94D7D79-8C20-445C-85FD-A583C87BD38A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33F3559F-A189-4A97-8AE0-885F37991BD1}
+	EndGlobalSection
+EndGlobal

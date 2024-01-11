@@ -1,0 +1,19 @@
+150, 182, 197 - dark blue
+173, 196, 206 - light blue
+238, 224, 201 - pearl
+241, 240, 232 - gray
+
+246, 177, 122 - yellow
+112, 119, 161 - lightest blue
+66, 71, 105 - light blue
+45, 50, 80 - darkest blue
+89, 111, 183 - basta blue
+
+245, 245, 245 - white but not white
+229, 225, 218 - dark gray
+249, 249, 249 - prolly white 
+245, 247, 248 - idk anymore
+242, 241, 235
+169, 169, 169
+
+

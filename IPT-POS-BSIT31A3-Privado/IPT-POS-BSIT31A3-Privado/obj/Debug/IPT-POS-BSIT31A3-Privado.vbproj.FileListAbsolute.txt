@@ -1,0 +1,17 @@
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.AssemblyReference.cache
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmPOS.resources
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.Resources.resources
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.GenerateResource.cache
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.CoreCompileInputs.cache
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\bin\Debug\IPT-POS-BSIT31A3-Privado.exe.config
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\bin\Debug\IPT-POS-BSIT31A3-Privado.exe
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\bin\Debug\IPT-POS-BSIT31A3-Privado.pdb
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\bin\Debug\IPT-POS-BSIT31A3-Privado.xml
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.exe
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.xml
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.pdb
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\bin\Debug\Guna.UI.dll
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-POS-BSIT31A3-Privado.vbproj.CopyComplete
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmLogin.resources
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmDashboard.resources
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmTransaction.resources
