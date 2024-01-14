@@ -90,6 +90,12 @@
     <Compile Include="frmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmpayment.Designer.vb">
+      <DependentUpon>frmpayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmpayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPOS.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpayment.resx">
+      <DependentUpon>frmpayment.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPOS.resx">
       <DependentUpon>frmPOS.vb</DependentUpon>

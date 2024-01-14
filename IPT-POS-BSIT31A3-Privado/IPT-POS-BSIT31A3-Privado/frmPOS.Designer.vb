@@ -32,7 +32,7 @@ Partial Class frmPOS
         Me.lblPOS = New Guna.UI.WinForms.GunaLabel()
         Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.GunaAdvenceButton1 = New Guna.UI.WinForms.GunaAdvenceButton()
+        Me.btnLogout = New Guna.UI.WinForms.GunaAdvenceButton()
         Me.GunaAdvenceTileButton5 = New Guna.UI.WinForms.GunaAdvenceTileButton()
         Me.GunaAdvenceTileButton4 = New Guna.UI.WinForms.GunaAdvenceTileButton()
         Me.GunaAdvenceTileButton3 = New Guna.UI.WinForms.GunaAdvenceTileButton()
@@ -40,33 +40,39 @@ Partial Class frmPOS
         Me.btnAddToCart = New Guna.UI.WinForms.GunaAdvenceTileButton()
         Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
-        Me.GunaLabel6 = New Guna.UI.WinForms.GunaLabel()
+        Me.lbltime = New Guna.UI.WinForms.GunaLabel()
+        Me.lbldate = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel5 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel4 = New Guna.UI.WinForms.GunaLabel()
+        Me.lblTransNo = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.GunaLabel33 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel32 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel31 = New Guna.UI.WinForms.GunaLabel()
+        Me.cboDiscount = New System.Windows.Forms.ComboBox()
+        Me.lblDisc = New Guna.UI.WinForms.GunaLabel()
+        Me.lblVsale = New Guna.UI.WinForms.GunaLabel()
+        Me.lblVAT = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel30 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel29 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel28 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel27 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel26 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel25 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel24 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel23 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel22 = New Guna.UI.WinForms.GunaLabel()
+        Me.lblRefnum = New Guna.UI.WinForms.GunaLabel()
+        Me.lblMOP = New Guna.UI.WinForms.GunaLabel()
+        Me.lblChange = New Guna.UI.WinForms.GunaLabel()
+        Me.lblAmountPaid = New Guna.UI.WinForms.GunaLabel()
+        Me.lbltotalprod = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel21 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel20 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel19 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel18 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel17 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaElipsePanel3 = New Guna.UI.WinForms.GunaElipsePanel()
-        Me.GunaLabel8 = New Guna.UI.WinForms.GunaLabel()
+        Me.lblgtotal = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel7 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaElipsePanel4 = New Guna.UI.WinForms.GunaElipsePanel()
+        Me.txtCritlevel = New System.Windows.Forms.TextBox()
+        Me.txtQuantity = New System.Windows.Forms.TextBox()
+        Me.txtAmount = New System.Windows.Forms.TextBox()
+        Me.txtProdName = New System.Windows.Forms.TextBox()
+        Me.txtProdCode = New System.Windows.Forms.TextBox()
         Me.GunaLabel16 = New Guna.UI.WinForms.GunaLabel()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -74,7 +80,7 @@ Partial Class frmPOS
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.GunaLabel15 = New Guna.UI.WinForms.GunaLabel()
+        Me.lblStatus = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel14 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel13 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel12 = New Guna.UI.WinForms.GunaLabel()
@@ -82,11 +88,6 @@ Partial Class frmPOS
         Me.GunaLabel10 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel9 = New Guna.UI.WinForms.GunaLabel()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.txtProdCode = New System.Windows.Forms.TextBox()
-        Me.txtProdName = New System.Windows.Forms.TextBox()
-        Me.txtAmount = New System.Windows.Forms.TextBox()
-        Me.txtQuantity = New System.Windows.Forms.TextBox()
-        Me.txtCritlevel = New System.Windows.Forms.TextBox()
         Me.GunaPanel1.SuspendLayout()
         CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -181,7 +182,7 @@ Partial Class frmPOS
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(80, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.GunaAdvenceButton1)
+        Me.Panel1.Controls.Add(Me.btnLogout)
         Me.Panel1.Controls.Add(Me.GunaAdvenceTileButton5)
         Me.Panel1.Controls.Add(Me.GunaAdvenceTileButton4)
         Me.Panel1.Controls.Add(Me.GunaAdvenceTileButton3)
@@ -190,38 +191,38 @@ Partial Class frmPOS
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 70)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(133, 585)
+        Me.Panel1.Size = New System.Drawing.Size(133, 579)
         Me.Panel1.TabIndex = 1
         '
-        'GunaAdvenceButton1
+        'btnLogout
         '
-        Me.GunaAdvenceButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaAdvenceButton1.AnimationSpeed = 0.03!
-        Me.GunaAdvenceButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(122, Byte), Integer))
-        Me.GunaAdvenceButton1.BorderColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.Gray
-        Me.GunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.White
-        Me.GunaAdvenceButton1.CheckedImage = CType(resources.GetObject("GunaAdvenceButton1.CheckedImage"), System.Drawing.Image)
-        Me.GunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.DimGray
-        Me.GunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaAdvenceButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaAdvenceButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaAdvenceButton1.Image = CType(resources.GetObject("GunaAdvenceButton1.Image"), System.Drawing.Image)
-        Me.GunaAdvenceButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.GunaAdvenceButton1.Location = New System.Drawing.Point(12, 533)
-        Me.GunaAdvenceButton1.Name = "GunaAdvenceButton1"
-        Me.GunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(201, Byte), Integer))
-        Me.GunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaAdvenceButton1.OnHoverImage = Nothing
-        Me.GunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
-        Me.GunaAdvenceButton1.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaAdvenceButton1.Size = New System.Drawing.Size(111, 31)
-        Me.GunaAdvenceButton1.TabIndex = 5
-        Me.GunaAdvenceButton1.Text = "Log Out"
+        Me.btnLogout.AnimationHoverSpeed = 0.07!
+        Me.btnLogout.AnimationSpeed = 0.03!
+        Me.btnLogout.BaseColor = System.Drawing.Color.FromArgb(CType(CType(246, Byte), Integer), CType(CType(177, Byte), Integer), CType(CType(122, Byte), Integer))
+        Me.btnLogout.BorderColor = System.Drawing.Color.Black
+        Me.btnLogout.CheckedBaseColor = System.Drawing.Color.Gray
+        Me.btnLogout.CheckedBorderColor = System.Drawing.Color.Black
+        Me.btnLogout.CheckedForeColor = System.Drawing.Color.White
+        Me.btnLogout.CheckedImage = CType(resources.GetObject("btnLogout.CheckedImage"), System.Drawing.Image)
+        Me.btnLogout.CheckedLineColor = System.Drawing.Color.DimGray
+        Me.btnLogout.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLogout.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLogout.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Image = CType(resources.GetObject("btnLogout.Image"), System.Drawing.Image)
+        Me.btnLogout.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnLogout.LineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.btnLogout.Location = New System.Drawing.Point(12, 533)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(201, Byte), Integer))
+        Me.btnLogout.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.btnLogout.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLogout.OnHoverImage = Nothing
+        Me.btnLogout.OnHoverLineColor = System.Drawing.Color.FromArgb(CType(CType(66, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(170, Byte), Integer))
+        Me.btnLogout.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLogout.Size = New System.Drawing.Size(111, 31)
+        Me.btnLogout.TabIndex = 5
+        Me.btnLogout.Text = "Log Out"
         '
         'GunaAdvenceTileButton5
         '
@@ -387,9 +388,10 @@ Partial Class frmPOS
         '
         Me.GunaElipsePanel1.BackColor = System.Drawing.Color.Transparent
         Me.GunaElipsePanel1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.GunaElipsePanel1.Controls.Add(Me.GunaLabel6)
+        Me.GunaElipsePanel1.Controls.Add(Me.lbltime)
+        Me.GunaElipsePanel1.Controls.Add(Me.lbldate)
         Me.GunaElipsePanel1.Controls.Add(Me.GunaLabel5)
-        Me.GunaElipsePanel1.Controls.Add(Me.GunaLabel4)
+        Me.GunaElipsePanel1.Controls.Add(Me.lblTransNo)
         Me.GunaElipsePanel1.Controls.Add(Me.GunaLabel3)
         Me.GunaElipsePanel1.Location = New System.Drawing.Point(866, 76)
         Me.GunaElipsePanel1.Name = "GunaElipsePanel1"
@@ -397,35 +399,45 @@ Partial Class frmPOS
         Me.GunaElipsePanel1.Size = New System.Drawing.Size(345, 157)
         Me.GunaElipsePanel1.TabIndex = 2
         '
-        'GunaLabel6
+        'lbltime
         '
-        Me.GunaLabel6.AutoSize = True
-        Me.GunaLabel6.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel6.Location = New System.Drawing.Point(30, 123)
-        Me.GunaLabel6.Name = "GunaLabel6"
-        Me.GunaLabel6.Size = New System.Drawing.Size(123, 22)
-        Me.GunaLabel6.TabIndex = 8
-        Me.GunaLabel6.Text = "****** ******"
+        Me.lbltime.AutoSize = True
+        Me.lbltime.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbltime.Location = New System.Drawing.Point(170, 109)
+        Me.lbltime.Name = "lbltime"
+        Me.lbltime.Size = New System.Drawing.Size(64, 22)
+        Me.lbltime.TabIndex = 9
+        Me.lbltime.Text = "******"
+        '
+        'lbldate
+        '
+        Me.lbldate.AutoSize = True
+        Me.lbldate.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbldate.Location = New System.Drawing.Point(26, 109)
+        Me.lbldate.Name = "lbldate"
+        Me.lbldate.Size = New System.Drawing.Size(64, 22)
+        Me.lbldate.TabIndex = 8
+        Me.lbldate.Text = "******"
         '
         'GunaLabel5
         '
         Me.GunaLabel5.AutoSize = True
         Me.GunaLabel5.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel5.Location = New System.Drawing.Point(30, 91)
+        Me.GunaLabel5.Location = New System.Drawing.Point(26, 77)
         Me.GunaLabel5.Name = "GunaLabel5"
         Me.GunaLabel5.Size = New System.Drawing.Size(155, 22)
         Me.GunaLabel5.TabIndex = 7
         Me.GunaLabel5.Text = "DATE AND TIME:"
         '
-        'GunaLabel4
+        'lblTransNo
         '
-        Me.GunaLabel4.AutoSize = True
-        Me.GunaLabel4.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel4.Location = New System.Drawing.Point(20, 38)
-        Me.GunaLabel4.Name = "GunaLabel4"
-        Me.GunaLabel4.Size = New System.Drawing.Size(208, 22)
-        Me.GunaLabel4.TabIndex = 6
-        Me.GunaLabel4.Text = "---------------------------------"
+        Me.lblTransNo.AutoSize = True
+        Me.lblTransNo.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTransNo.Location = New System.Drawing.Point(26, 39)
+        Me.lblTransNo.Name = "lblTransNo"
+        Me.lblTransNo.Size = New System.Drawing.Size(87, 22)
+        Me.lblTransNo.TabIndex = 6
+        Me.lblTransNo.Text = "1000000"
         '
         'GunaLabel3
         '
@@ -441,19 +453,19 @@ Partial Class frmPOS
         '
         Me.GunaElipsePanel2.BackColor = System.Drawing.Color.Transparent
         Me.GunaElipsePanel2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.GunaElipsePanel2.Controls.Add(Me.ComboBox1)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel33)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel32)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel31)
+        Me.GunaElipsePanel2.Controls.Add(Me.cboDiscount)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblDisc)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblVsale)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblVAT)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel30)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel29)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel28)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel27)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel26)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel25)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel24)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel23)
-        Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel22)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblRefnum)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblMOP)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblChange)
+        Me.GunaElipsePanel2.Controls.Add(Me.lblAmountPaid)
+        Me.GunaElipsePanel2.Controls.Add(Me.lbltotalprod)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel21)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel20)
         Me.GunaElipsePanel2.Controls.Add(Me.GunaLabel19)
@@ -465,45 +477,45 @@ Partial Class frmPOS
         Me.GunaElipsePanel2.Size = New System.Drawing.Size(345, 276)
         Me.GunaElipsePanel2.TabIndex = 3
         '
-        'ComboBox1
+        'cboDiscount
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Senior Citizen ", "PWD"})
-        Me.ComboBox1.Location = New System.Drawing.Point(167, 243)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(100, 22)
-        Me.ComboBox1.TabIndex = 26
+        Me.cboDiscount.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboDiscount.FormattingEnabled = True
+        Me.cboDiscount.Items.AddRange(New Object() {"Senior Citizen ", "PWD"})
+        Me.cboDiscount.Location = New System.Drawing.Point(167, 243)
+        Me.cboDiscount.Name = "cboDiscount"
+        Me.cboDiscount.Size = New System.Drawing.Size(100, 22)
+        Me.cboDiscount.TabIndex = 26
         '
-        'GunaLabel33
+        'lblDisc
         '
-        Me.GunaLabel33.AutoSize = True
-        Me.GunaLabel33.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel33.Location = New System.Drawing.Point(171, 220)
-        Me.GunaLabel33.Name = "GunaLabel33"
-        Me.GunaLabel33.Size = New System.Drawing.Size(28, 16)
-        Me.GunaLabel33.TabIndex = 25
-        Me.GunaLabel33.Text = "0.00"
+        Me.lblDisc.AutoSize = True
+        Me.lblDisc.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDisc.Location = New System.Drawing.Point(171, 220)
+        Me.lblDisc.Name = "lblDisc"
+        Me.lblDisc.Size = New System.Drawing.Size(28, 16)
+        Me.lblDisc.TabIndex = 25
+        Me.lblDisc.Text = "0.00"
         '
-        'GunaLabel32
+        'lblVsale
         '
-        Me.GunaLabel32.AutoSize = True
-        Me.GunaLabel32.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel32.Location = New System.Drawing.Point(171, 198)
-        Me.GunaLabel32.Name = "GunaLabel32"
-        Me.GunaLabel32.Size = New System.Drawing.Size(28, 16)
-        Me.GunaLabel32.TabIndex = 24
-        Me.GunaLabel32.Text = "0.00"
+        Me.lblVsale.AutoSize = True
+        Me.lblVsale.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblVsale.Location = New System.Drawing.Point(171, 198)
+        Me.lblVsale.Name = "lblVsale"
+        Me.lblVsale.Size = New System.Drawing.Size(28, 16)
+        Me.lblVsale.TabIndex = 24
+        Me.lblVsale.Text = "0.00"
         '
-        'GunaLabel31
+        'lblVAT
         '
-        Me.GunaLabel31.AutoSize = True
-        Me.GunaLabel31.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel31.Location = New System.Drawing.Point(171, 174)
-        Me.GunaLabel31.Name = "GunaLabel31"
-        Me.GunaLabel31.Size = New System.Drawing.Size(28, 16)
-        Me.GunaLabel31.TabIndex = 23
-        Me.GunaLabel31.Text = "0.00"
+        Me.lblVAT.AutoSize = True
+        Me.lblVAT.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblVAT.Location = New System.Drawing.Point(171, 174)
+        Me.lblVAT.Name = "lblVAT"
+        Me.lblVAT.Size = New System.Drawing.Size(28, 16)
+        Me.lblVAT.TabIndex = 23
+        Me.lblVAT.Text = "0.00"
         '
         'GunaLabel30
         '
@@ -545,55 +557,55 @@ Partial Class frmPOS
         Me.GunaLabel27.TabIndex = 19
         Me.GunaLabel27.Text = "Vatable Sales:"
         '
-        'GunaLabel26
+        'lblRefnum
         '
-        Me.GunaLabel26.AutoSize = True
-        Me.GunaLabel26.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel26.Location = New System.Drawing.Point(248, 140)
-        Me.GunaLabel26.Name = "GunaLabel26"
-        Me.GunaLabel26.Size = New System.Drawing.Size(40, 21)
-        Me.GunaLabel26.TabIndex = 18
-        Me.GunaLabel26.Text = "*****"
+        Me.lblRefnum.AutoSize = True
+        Me.lblRefnum.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRefnum.Location = New System.Drawing.Point(248, 140)
+        Me.lblRefnum.Name = "lblRefnum"
+        Me.lblRefnum.Size = New System.Drawing.Size(40, 21)
+        Me.lblRefnum.TabIndex = 18
+        Me.lblRefnum.Text = "*****"
         '
-        'GunaLabel25
+        'lblMOP
         '
-        Me.GunaLabel25.AutoSize = True
-        Me.GunaLabel25.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel25.Location = New System.Drawing.Point(248, 107)
-        Me.GunaLabel25.Name = "GunaLabel25"
-        Me.GunaLabel25.Size = New System.Drawing.Size(40, 21)
-        Me.GunaLabel25.TabIndex = 17
-        Me.GunaLabel25.Text = "*****"
+        Me.lblMOP.AutoSize = True
+        Me.lblMOP.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMOP.Location = New System.Drawing.Point(248, 107)
+        Me.lblMOP.Name = "lblMOP"
+        Me.lblMOP.Size = New System.Drawing.Size(40, 21)
+        Me.lblMOP.TabIndex = 17
+        Me.lblMOP.Text = "*****"
         '
-        'GunaLabel24
+        'lblChange
         '
-        Me.GunaLabel24.AutoSize = True
-        Me.GunaLabel24.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel24.Location = New System.Drawing.Point(248, 75)
-        Me.GunaLabel24.Name = "GunaLabel24"
-        Me.GunaLabel24.Size = New System.Drawing.Size(41, 21)
-        Me.GunaLabel24.TabIndex = 16
-        Me.GunaLabel24.Text = "0.00"
+        Me.lblChange.AutoSize = True
+        Me.lblChange.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblChange.Location = New System.Drawing.Point(248, 75)
+        Me.lblChange.Name = "lblChange"
+        Me.lblChange.Size = New System.Drawing.Size(41, 21)
+        Me.lblChange.TabIndex = 16
+        Me.lblChange.Text = "0.00"
         '
-        'GunaLabel23
+        'lblAmountPaid
         '
-        Me.GunaLabel23.AutoSize = True
-        Me.GunaLabel23.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel23.Location = New System.Drawing.Point(248, 42)
-        Me.GunaLabel23.Name = "GunaLabel23"
-        Me.GunaLabel23.Size = New System.Drawing.Size(41, 21)
-        Me.GunaLabel23.TabIndex = 15
-        Me.GunaLabel23.Text = "0.00"
+        Me.lblAmountPaid.AutoSize = True
+        Me.lblAmountPaid.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAmountPaid.Location = New System.Drawing.Point(248, 42)
+        Me.lblAmountPaid.Name = "lblAmountPaid"
+        Me.lblAmountPaid.Size = New System.Drawing.Size(41, 21)
+        Me.lblAmountPaid.TabIndex = 15
+        Me.lblAmountPaid.Text = "0.00"
         '
-        'GunaLabel22
+        'lbltotalprod
         '
-        Me.GunaLabel22.AutoSize = True
-        Me.GunaLabel22.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel22.Location = New System.Drawing.Point(248, 9)
-        Me.GunaLabel22.Name = "GunaLabel22"
-        Me.GunaLabel22.Size = New System.Drawing.Size(19, 21)
-        Me.GunaLabel22.TabIndex = 14
-        Me.GunaLabel22.Text = "0"
+        Me.lbltotalprod.AutoSize = True
+        Me.lbltotalprod.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbltotalprod.Location = New System.Drawing.Point(248, 9)
+        Me.lbltotalprod.Name = "lbltotalprod"
+        Me.lbltotalprod.Size = New System.Drawing.Size(19, 21)
+        Me.lbltotalprod.TabIndex = 14
+        Me.lbltotalprod.Text = "0"
         '
         'GunaLabel21
         '
@@ -649,7 +661,7 @@ Partial Class frmPOS
         '
         Me.GunaElipsePanel3.BackColor = System.Drawing.Color.Transparent
         Me.GunaElipsePanel3.BaseColor = System.Drawing.Color.FromArgb(CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer), CType(CType(249, Byte), Integer))
-        Me.GunaElipsePanel3.Controls.Add(Me.GunaLabel8)
+        Me.GunaElipsePanel3.Controls.Add(Me.lblgtotal)
         Me.GunaElipsePanel3.Controls.Add(Me.GunaLabel7)
         Me.GunaElipsePanel3.Location = New System.Drawing.Point(866, 521)
         Me.GunaElipsePanel3.Name = "GunaElipsePanel3"
@@ -657,15 +669,15 @@ Partial Class frmPOS
         Me.GunaElipsePanel3.Size = New System.Drawing.Size(345, 122)
         Me.GunaElipsePanel3.TabIndex = 4
         '
-        'GunaLabel8
+        'lblgtotal
         '
-        Me.GunaLabel8.AutoSize = True
-        Me.GunaLabel8.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel8.Location = New System.Drawing.Point(120, 59)
-        Me.GunaLabel8.Name = "GunaLabel8"
-        Me.GunaLabel8.Size = New System.Drawing.Size(92, 44)
-        Me.GunaLabel8.TabIndex = 9
-        Me.GunaLabel8.Text = "0.00"
+        Me.lblgtotal.AutoSize = True
+        Me.lblgtotal.Font = New System.Drawing.Font("Century Gothic", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblgtotal.Location = New System.Drawing.Point(120, 59)
+        Me.lblgtotal.Name = "lblgtotal"
+        Me.lblgtotal.Size = New System.Drawing.Size(92, 44)
+        Me.lblgtotal.TabIndex = 9
+        Me.lblgtotal.Text = "0.00"
         '
         'GunaLabel7
         '
@@ -688,7 +700,7 @@ Partial Class frmPOS
         Me.GunaElipsePanel4.Controls.Add(Me.txtProdCode)
         Me.GunaElipsePanel4.Controls.Add(Me.GunaLabel16)
         Me.GunaElipsePanel4.Controls.Add(Me.ListView1)
-        Me.GunaElipsePanel4.Controls.Add(Me.GunaLabel15)
+        Me.GunaElipsePanel4.Controls.Add(Me.lblStatus)
         Me.GunaElipsePanel4.Controls.Add(Me.GunaLabel14)
         Me.GunaElipsePanel4.Controls.Add(Me.GunaLabel13)
         Me.GunaElipsePanel4.Controls.Add(Me.GunaLabel12)
@@ -700,6 +712,49 @@ Partial Class frmPOS
         Me.GunaElipsePanel4.Radius = 10
         Me.GunaElipsePanel4.Size = New System.Drawing.Size(714, 548)
         Me.GunaElipsePanel4.TabIndex = 5
+        '
+        'txtCritlevel
+        '
+        Me.txtCritlevel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCritlevel.Location = New System.Drawing.Point(514, 38)
+        Me.txtCritlevel.Name = "txtCritlevel"
+        Me.txtCritlevel.ReadOnly = True
+        Me.txtCritlevel.Size = New System.Drawing.Size(105, 22)
+        Me.txtCritlevel.TabIndex = 22
+        '
+        'txtQuantity
+        '
+        Me.txtQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtQuantity.Location = New System.Drawing.Point(434, 38)
+        Me.txtQuantity.Name = "txtQuantity"
+        Me.txtQuantity.ReadOnly = True
+        Me.txtQuantity.Size = New System.Drawing.Size(74, 22)
+        Me.txtQuantity.TabIndex = 21
+        '
+        'txtAmount
+        '
+        Me.txtAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAmount.Location = New System.Drawing.Point(358, 38)
+        Me.txtAmount.Name = "txtAmount"
+        Me.txtAmount.ReadOnly = True
+        Me.txtAmount.Size = New System.Drawing.Size(74, 22)
+        Me.txtAmount.TabIndex = 20
+        '
+        'txtProdName
+        '
+        Me.txtProdName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtProdName.Location = New System.Drawing.Point(170, 38)
+        Me.txtProdName.Name = "txtProdName"
+        Me.txtProdName.Size = New System.Drawing.Size(182, 22)
+        Me.txtProdName.TabIndex = 19
+        '
+        'txtProdCode
+        '
+        Me.txtProdCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtProdCode.Location = New System.Drawing.Point(9, 38)
+        Me.txtProdCode.Name = "txtProdCode"
+        Me.txtProdCode.Size = New System.Drawing.Size(151, 22)
+        Me.txtProdCode.TabIndex = 18
         '
         'GunaLabel16
         '
@@ -749,15 +804,15 @@ Partial Class frmPOS
         Me.ColumnHeader5.Text = "Sub Total"
         Me.ColumnHeader5.Width = 100
         '
-        'GunaLabel15
+        'lblStatus
         '
-        Me.GunaLabel15.AutoSize = True
-        Me.GunaLabel15.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel15.Location = New System.Drawing.Point(629, 39)
-        Me.GunaLabel15.Name = "GunaLabel15"
-        Me.GunaLabel15.Size = New System.Drawing.Size(46, 21)
-        Me.GunaLabel15.TabIndex = 15
-        Me.GunaLabel15.Text = "******"
+        Me.lblStatus.AutoSize = True
+        Me.lblStatus.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStatus.Location = New System.Drawing.Point(629, 39)
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(44, 17)
+        Me.lblStatus.TabIndex = 15
+        Me.lblStatus.Text = "******"
         '
         'GunaLabel14
         '
@@ -824,55 +879,12 @@ Partial Class frmPOS
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
         '
-        'txtProdCode
-        '
-        Me.txtProdCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtProdCode.Location = New System.Drawing.Point(9, 38)
-        Me.txtProdCode.Name = "txtProdCode"
-        Me.txtProdCode.Size = New System.Drawing.Size(151, 22)
-        Me.txtProdCode.TabIndex = 18
-        '
-        'txtProdName
-        '
-        Me.txtProdName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtProdName.Location = New System.Drawing.Point(170, 38)
-        Me.txtProdName.Name = "txtProdName"
-        Me.txtProdName.Size = New System.Drawing.Size(182, 22)
-        Me.txtProdName.TabIndex = 19
-        '
-        'txtAmount
-        '
-        Me.txtAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAmount.Location = New System.Drawing.Point(358, 38)
-        Me.txtAmount.Name = "txtAmount"
-        Me.txtAmount.ReadOnly = True
-        Me.txtAmount.Size = New System.Drawing.Size(74, 22)
-        Me.txtAmount.TabIndex = 20
-        '
-        'txtQuantity
-        '
-        Me.txtQuantity.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtQuantity.Location = New System.Drawing.Point(434, 38)
-        Me.txtQuantity.Name = "txtQuantity"
-        Me.txtQuantity.ReadOnly = True
-        Me.txtQuantity.Size = New System.Drawing.Size(74, 22)
-        Me.txtQuantity.TabIndex = 21
-        '
-        'txtCritlevel
-        '
-        Me.txtCritlevel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCritlevel.Location = New System.Drawing.Point(514, 38)
-        Me.txtCritlevel.Name = "txtCritlevel"
-        Me.txtCritlevel.ReadOnly = True
-        Me.txtCritlevel.Size = New System.Drawing.Size(105, 22)
-        Me.txtCritlevel.TabIndex = 22
-        '
         'frmPOS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkGray
-        Me.ClientSize = New System.Drawing.Size(1223, 655)
+        Me.ClientSize = New System.Drawing.Size(1223, 649)
         Me.Controls.Add(Me.GunaElipsePanel4)
         Me.Controls.Add(Me.GunaElipsePanel3)
         Me.Controls.Add(Me.GunaElipsePanel2)
@@ -913,23 +925,23 @@ Partial Class frmPOS
     Friend WithEvents GunaElipsePanel3 As Guna.UI.WinForms.GunaElipsePanel
     Friend WithEvents GunaElipsePanel2 As Guna.UI.WinForms.GunaElipsePanel
     Friend WithEvents GunaLabel3 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel4 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel6 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblTransNo As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lbldate As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel5 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel8 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblgtotal As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel7 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents btnAddToCart As Guna.UI.WinForms.GunaAdvenceTileButton
     Friend WithEvents GunaAdvenceTileButton5 As Guna.UI.WinForms.GunaAdvenceTileButton
     Friend WithEvents GunaAdvenceTileButton4 As Guna.UI.WinForms.GunaAdvenceTileButton
     Friend WithEvents GunaAdvenceTileButton3 As Guna.UI.WinForms.GunaAdvenceTileButton
     Friend WithEvents GunaAdvenceTileButton2 As Guna.UI.WinForms.GunaAdvenceTileButton
-    Friend WithEvents GunaAdvenceButton1 As Guna.UI.WinForms.GunaAdvenceButton
+    Friend WithEvents btnLogout As Guna.UI.WinForms.GunaAdvenceButton
     Friend WithEvents GunaElipsePanel4 As Guna.UI.WinForms.GunaElipsePanel
     Friend WithEvents GunaLabel9 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel10 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel12 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel11 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel15 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblStatus As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel14 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel13 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel16 As Guna.UI.WinForms.GunaLabel
@@ -943,24 +955,25 @@ Partial Class frmPOS
     Friend WithEvents GunaLabel19 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel18 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel17 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel26 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel25 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel24 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel23 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel22 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblRefnum As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblMOP As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblChange As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblAmountPaid As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lbltotalprod As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel30 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel29 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel28 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel27 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents GunaLabel21 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents GunaLabel33 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel32 As Guna.UI.WinForms.GunaLabel
-    Friend WithEvents GunaLabel31 As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents cboDiscount As ComboBox
+    Friend WithEvents lblDisc As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblVsale As Guna.UI.WinForms.GunaLabel
+    Friend WithEvents lblVAT As Guna.UI.WinForms.GunaLabel
     Friend WithEvents Timer1 As Timer
     Friend WithEvents txtCritlevel As TextBox
     Friend WithEvents txtQuantity As TextBox
     Friend WithEvents txtAmount As TextBox
     Friend WithEvents txtProdName As TextBox
     Friend WithEvents txtProdCode As TextBox
+    Friend WithEvents lbltime As Guna.UI.WinForms.GunaLabel
 End Class

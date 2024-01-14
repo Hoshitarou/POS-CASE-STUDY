@@ -15,3 +15,4 @@ D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT-PO
 D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmLogin.resources
 D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmDashboard.resources
 D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmTransaction.resources
+D:\VSCODES!!!\IPT-POS-BSIT31A3-Privado\IPT-POS-BSIT31A3-Privado\obj\Debug\IPT_POS_BSIT31A3_Privado.frmpayment.resources

@@ -1,4 +1,6 @@
 ﻿Imports System.Data.OleDb
+Imports System.Data.SqlClient
+
 Public Class frmLogin
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call connection()
@@ -10,17 +12,20 @@ Public Class frmLogin
         cmd = New OleDbCommand(sql, cn)
         dr = cmd.ExecuteReader
         If dr.Read Then
-            MsgBox("Log in Success", MsgBoxStyle.Information)
+
             frmDashboard.lblnemu.Text = txtUsername.Text
             frmDashboard.tssusername.Text = txtUsername.Text
             frmDashboard.tssRole.Text = lblRole.Text
             frmDashboard.ShowDialog()
-
         Else
             MsgBox("Wrong Password", MsgBoxStyle.Exclamation)
-
         End If
     End Sub
+
+
+
+
+
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.Close()
@@ -34,4 +39,6 @@ Public Class frmLogin
             lblRole.Text = dr(0).ToString
         End If
     End Sub
+
+
 End Class
